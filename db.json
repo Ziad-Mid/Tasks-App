@@ -8,6 +8,6 @@
 {
     "id": 2,
     "label":"Learn Spring Boot",
-    "completed":false
+    "completed":true
 }]
 }

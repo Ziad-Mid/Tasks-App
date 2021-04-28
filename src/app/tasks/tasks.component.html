@@ -38,8 +38,13 @@
               {{task.label}}
               <span class="badge badge-secondary badge-pill" 
               style="margin-left: 350px;"
-              >
-                 <i class="fa fa-thumbs-up"></i>
+              [ngClass]="{'badge-info': task.completed,'badge-danger':!task.completed }">
+
+                 <i class="fa "
+                 [ngClass]="{'fa-thumbs-up':task.completed,'fa-thumbs-down':!taks.completed}">
+                
+                </i>
+               
                 </span>
           </li>
         
