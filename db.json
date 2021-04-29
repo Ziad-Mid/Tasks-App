@@ -3,11 +3,11 @@
     [{
         "id": 1,
         "label":"Learn Angular",
-        "completed":false
+        "complete":false
     },
 {
     "id": 2,
     "label":"Learn Spring Boot",
-    "completed":true
+    "complete":true
 }]
 }
