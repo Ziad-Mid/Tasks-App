@@ -16,9 +16,14 @@
       "id": 3
     },
     {
-      "label": "Learn J2EE",
+      "label": "Learn JAVA EE",
       "completed": false,
       "id": 4
+    },
+    {
+      "label": "Learn JAVA",
+      "completed": false,
+      "id": 5
     }
   ]
 }

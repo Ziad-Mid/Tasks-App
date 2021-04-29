@@ -19,6 +19,8 @@ export class TasksComponent implements OnInit {
 
   editForm = false ;
 
+  showForm = false ;
+
   constructor(private taskService : TaskService) { }
 
   ngOnInit(): void {
@@ -39,6 +41,7 @@ export class TasksComponent implements OnInit {
     this.taskService.persist(this.myTask).subscribe((task)=>{
       this.tasks = [task, ...this.tasks];
       this.resetTask();
+      this.showForm = false;
     })
     }
 
@@ -66,4 +69,5 @@ export class TasksComponent implements OnInit {
         this.editForm = false;
       })
     }
+
 }
