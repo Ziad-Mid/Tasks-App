@@ -3,12 +3,12 @@
     {
       "id": 1,
       "label": "Learn Angular",
-      "completed": false
+      "completed": true
     },
     {
       "id": 2,
       "label": "Learn Spring Boot",
-      "completed": true
+      "completed": false
     },
     {
       "label": "Learn PHP",
